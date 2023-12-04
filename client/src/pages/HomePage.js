@@ -110,11 +110,11 @@ const HomePage = () => {
     <Layout title={"ALl Products - Best offers "}>
       {/* banner image */}
       <img
-        src="/images/banner2.jpg"
+        src="/images/banner4.jpg"
         className="banner-img"
-        alt="bannerimage"
+        alt="bannerImage"
         width={"100%"}
-        height={"400px"}
+        height={"560px"}
       />
       {/* banner image */}
       <div className="container-fluid row mt-3 home-page">
