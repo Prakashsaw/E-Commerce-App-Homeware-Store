@@ -42,3 +42,29 @@ app.listen(PORT, () => {
       .white
   );
 });
+
+
+// import axios from "axios";
+
+// const config = {
+//   headers: {
+//     "X-RapidAPI-Key": "e74de0d37amsh243156aa8710bc6p17c60fjsn964af95a48d1",
+//     "X-RapidAPI-Host": "getrit-furniture-store.p.rapidapi.com",
+//   },
+// };
+// const options = {
+//   method: "GET",
+//   url: "https://getrit-furniture-store.p.rapidapi.comhttps//getrit.com/API/Token",
+//   params: { Token: "Demo" },
+//   headers: {
+//     "X-RapidAPI-Key": "e74de0d37amsh243156aa8710bc6p17c60fjsn964af95a48d1",
+//     "X-RapidAPI-Host": "getrit-furniture-store.p.rapidapi.com",
+//   },
+// };
+
+// try {
+//   const response = await axios.get(options.url, config);
+//   console.log(response.data);
+// } catch (error) {
+//   console.error(error);
+// }

@@ -14,10 +14,11 @@
   font-family: "Poppins", sans-serif;
   font-size: 17px;
   line-height: 26px;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
   box-shadow: 0 8px 6px -6px gray;
   --webkit-box-shadow: 0 8px 6px -6px gray;
   border-bottom: solid gray !important;
+  background-color: aqua;
 }
 
 .nav-link {
@@ -40,11 +41,11 @@
 }
 .search-form input {
   border: none;
-  border-radius: 0;
+  border-radius: 5px;
 }
 .search-form button {
   background-color: #000000;
-  border-radius: 0;
+  border-radius: 5px;
   color: white;
 }
 
