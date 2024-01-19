@@ -27,10 +27,6 @@ app.use("/api/v1/auth", authRoutes);
 app.use("/api/v1/category", categoryRoutes);
 app.use("/api/v1/product", productRoutes);
 
-//rest api
-app.get("/", (req, res) => {
-  res.send("<h1>Welcome to Online Homeware Store App, Backend...</h1>");
-});
 
 //PORT
 const PORT = process.env.PORT || 8080;
@@ -51,7 +47,7 @@ app.get("/", (req, res) => {
 
             <h3>Products Route </h3>
             <li>Products Route- /api/v1/product</li>
-            
+
             <li>Much more...</li>
         </ul></div>
     </div>`);
