@@ -4,7 +4,7 @@ module.exports = function(app) {
   app.use(
     "/api/v1",
     createProxyMiddleware({
-      target: "https://server-spjn.onrender.com",
+      target: "http://localhost:8080",
       changeOrigin: true,
     })
   );
